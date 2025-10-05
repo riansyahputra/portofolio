@@ -1,13 +1,11 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
     <section className="relative overflow-hidden flex flex-col-reverse md:flex-row items-center justify-between px-10 md:px-16 py-20 md:py-32">
-     
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,_rgba(37,99,235,0.15),_transparent_60%)]"></div>
 
       {/* Text Section */}
@@ -21,8 +19,9 @@ const Hero = () => {
           Hi, I’m <span className="text-blue-600">Gres Audia</span> 👋
         </h1>
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mt-4 max-w-lg mx-auto md:mx-0">
-          A passionate Front-End Developer who turns ideas into interactive, 
-          user-friendly websites using <span className="text-blue-600 font-semibold">React</span> &{" "}
+          A passionate Front-End Developer who turns ideas into interactive,
+          user-friendly websites using{" "}
+          <span className="text-blue-600 font-semibold">React</span> &{" "}
           <span className="text-blue-600 font-semibold">Next.js</span>.
         </p>
 
@@ -39,6 +38,12 @@ const Hero = () => {
           >
             📬 Contact Me
           </Link>
+          <a
+            href="/Gres-Audia-CV.pdf"
+            className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-50 dark:hover:bg-gray-900 transition duration-200"
+          >
+            ⬇️ My CV
+          </a>
         </div>
       </motion.div>
 
@@ -51,8 +56,6 @@ const Hero = () => {
       >
         {/* Glow behind image */}
         <div className="absolute w-[350px] h-[350px] bg-blue-500/20 blur-3xl rounded-full -z-10"></div>
-
-        
       </motion.div>
     </section>
   );

@@ -23,9 +23,6 @@ const Navbar = () => {
           <Link href="#projects" className="hover:text-blue-600">
             Projects
           </Link>
-          <Link href="#about" className="hover:text-blue-600">
-            About
-          </Link>
           <Link href="#contact" className="hover:text-blue-600">
             Contact
           </Link>
@@ -50,7 +47,7 @@ const Navbar = () => {
             <Link href="#projects" onClick={() => setOpen(false)}>
               Projects
             </Link>
-            <Link href="#about" onClick={() => setOpen(false)}>
+            <Link href="/about" onClick={() => setOpen(false)}>
               About
             </Link>
             <Link href="#contact" onClick={() => setOpen(false)}>
