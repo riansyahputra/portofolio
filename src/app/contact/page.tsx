@@ -17,20 +17,20 @@ const Contact = () => {
         </p>
         <div className="flex justify-center gap-6">
           <a
-            href="mailto:gresaudipasaribu@gmail.com"
+            href="mailto:rianpandiangan4@gmail.com"
             className="flex items-center gap-2 hover:text-blue-400"
           >
             <FaEnvelope /> Email
           </a>
           <a
-            href="https://github.com/gresaudiapasaribu"
+            href="https://github.com/riansyahputra"
             target="_blank"
             className="flex items-center gap-2 hover:text-blue-400"
           >
             <FaGithub /> GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/gres-audia-pasaribu-231b3a25a/"
+            href="https://www.linkedin.com/in/rian-pandiangan-a7006a389/"
             target="_blank"
             className="flex items-center gap-2 hover:text-blue-400"
           >

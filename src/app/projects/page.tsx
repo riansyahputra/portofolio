@@ -4,7 +4,7 @@ export default function ProjectPage() {
 
   return (
     <section className="container mx-auto px-16">
-      <h2 className="text-3xl font-bold mb-8"> Projects</h2>
+      <h2 className="text-3xl text-orange-600 font-bold mb-8"> Projects</h2>
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((p, i) => (
           <ProjectCard key={i} {...p} />

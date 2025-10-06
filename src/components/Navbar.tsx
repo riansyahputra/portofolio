@@ -11,19 +11,19 @@ const Navbar = () => {
     <nav className="fixed px-10 top-0 left-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-blue-600">
-          Gresaudia
+        <Link href="/" className="text-2xl font-bold text-orange-600">
+          RIAN
         </Link>
 
         {/* Menu Desktop */}
         <div className="hidden md:flex gap-6 text-gray-700 dark:text-gray-200">
-          <Link href="#home" className="hover:text-blue-600">
+          <Link href="#home" className="hover:text-orange-600">
             Home
           </Link>
-          <Link href="#projects" className="hover:text-blue-600">
+          <Link href="#projects" className="hover:text-orange-600">
             Projects
           </Link>
-          <Link href="#contact" className="hover:text-blue-600">
+          <Link href="#contact" className="hover:text-orange-600">
             Contact
           </Link>
         </div>

@@ -10,9 +10,9 @@ const Footer = () => {
           <Link
             href="https://github.com/yourusername"
             target="_blank"
-            className="text-blue-600 hover:underline"
+            className="text-orange-600 hover:underline"
           >
-           by Gres Audia 
+           by Rian Syahputra 
           </Link>
         </p>
         <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">

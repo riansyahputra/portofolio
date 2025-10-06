@@ -1,29 +1,25 @@
 "use client";
 import { motion } from "framer-motion";
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGithub } from "react-icons/fa";
-import { BiLogoTypescript } from "react-icons/bi";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { FaFigma } from "react-icons/fa";
+
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
   { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
-  { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
-  { name: "React", icon: <FaReact className="text-cyan-400" /> },
-  { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
-  { name: "Typescript", icon: <BiLogoTypescript className="text-blue-500" /> },
-  { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
-  { name: "GitHub", icon: <FaGithub className="text-gray-300" /> },
+  { name: "Figma", icon: <FaFigma className="text-yellow-400" /> },
+
 ];
 
 const Skill = () => {
   return (
     <section className="py-16 bg-gray-950 text-white px-10">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-12 text-blue-400">
+        <h2 className="text-3xl font-bold mb-12 text-orange-400">
           Technical Skills
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+        <div className="flex justify-center items-center gap-8">
           {skills.map((skill, i) => (
             <motion.div
               key={i}
